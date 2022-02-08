@@ -15,63 +15,32 @@
       </div>
     </header>
     <div class="jumbo">
-
+      <div class="container">
+        <div class="cta col-4">
+          <div class="small-text mb-3">
+            FRESH & TASTY EVERY DAY
+          </div>
+          <h1 class="mb-3">The Perfect Fresh Bread</h1>
+          <p class="small-text mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur culpa sunt laudantium recusandae aut pariatur animi, sint quidem magnam error aperiam.
+          </p>
+          <app-button :theme="'light'">Explore our products</app-button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import AppButton from './AppButton.vue'
+
 export default {
+  components: { AppButton },
   
 }
 </script>
 
 <style lang="scss" scoped>
-@import '../style/variables.scss';
+@import '../style/the-header-style.scss';
 
-.head {
-  background: url('/images/hero-header-bakery.jpg') 50% 50%;
-  background-size: cover;
-  height: 600px; // da sistemare
-
-  header {
-    height: 100px;
-    padding: 10px 20px;
-
-    .row {
-      height: 100%;
-
-      .logo-container {
-        height: 100%;
-        img {
-          height: 100%;
-        };
-      }
-
-      nav {
-        height: 100%;
-        padding: 20px 10px;
-
-        ul {
-          height: 100%;
-          list-style: none;
-          color: $primary;
-          display: flex;
-          justify-content: flex-end;
-          align-items: center;
-          li {
-            font-size: .8rem;
-            margin-left: 30px;
-            cursor: pointer;
-            padding: 6px 0;
-            &:hover {
-              border-bottom: 2px solid $primary;
-            }
-          }
-        }
-      }
-    }
-
-  }
-}
 </style>
