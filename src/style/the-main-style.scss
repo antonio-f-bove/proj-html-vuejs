@@ -4,16 +4,11 @@ section {
   margin-bottom: $section-gap;
 }
 
+
 main {
 
   #start-shopping {
     margin-top: $section-gap;
-
-    .content-box {
-      h3 {
-        color: $primary;
-      }
-    }
 
     // .slider {
 
@@ -21,10 +16,6 @@ main {
   }
 
   #special-moments {
-    h3 {
-      color: $primary;
-    }
-
     .row {
       .img-container {
         height: 600px;
@@ -42,4 +33,24 @@ main {
     }
   }
 
+  #products {
+    .content-box {
+      padding: 80px 0;
+    }
+  }
+
+  .slider {
+    .row {
+      height: 100%;
+
+      .card {
+        height: 100%;
+        border: none;
+
+        .card-text {
+          color: $text-grey;
+        }
+      }
+    }
+  }
 }

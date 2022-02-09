@@ -24,7 +24,7 @@
     </section>
 
     <section id="special-moments" class="container">
-      <div class="wrapper text-center mb-5">
+      <div class="content-box text-center mb-5">
         <p class="small-text">
           CORPORATE & WEDDINGS
         </p>
@@ -37,7 +37,48 @@
     </section>
 
     <section id="products" class="container">
-
+      <div class="row">
+        <div class="content-box text-center col-3 me-3">
+          <h3 class="mb-3">Find a freshly baked product perfect for you</h3>
+          <p class="small-text mb-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe velit earum delectus laborum pariatur vel sit ex commodi blanditiis, qui libero corporis, numquam eum temporibus! Veritatis neque sunt tempore eaque.
+          </p>
+          <app-button :theme="'dark'">Shop All Products</app-button>
+        </div>
+        <div class="slider col">
+          <!-- static version -->
+          <div class="row">
+            <div class="card col">
+              <img class="card-img-top" src="/images/choco-chip-cookies.jpg" alt="product">
+              <div class="card-body text-center">
+                <h6 class="card-title">Choco Chip Cookies</h6>
+                <div class="card-text">$19.00 - $39.00</div>
+              </div>
+            </div>
+            <div class="card col">
+              <img class="card-img-top" src="/images/choco-chip-cookies.jpg" alt="product">
+              <div class="card-body text-center">
+                <h6 class="card-title">Choco Chip Cookies</h6>
+                <div class="card-text">$19.00 - $39.00</div>
+              </div>
+            </div>
+            <div class="card col">
+              <img class="card-img-top" src="/images/choco-chip-cookies.jpg" alt="product">
+              <div class="card-body text-center">
+                <h6 class="card-title">Choco Chip Cookies</h6>
+                <div class="card-text">$19.00 - $39.00</div>
+              </div>
+            </div>
+            <div class="card col">
+              <img class="card-img-top" src="/images/choco-chip-cookies.jpg" alt="product">
+              <div class="card-body text-center">
+                <h6 class="card-title">Choco Chip Cookies</h6>
+                <div class="card-text">$19.00 - $39.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="process" class="container">
