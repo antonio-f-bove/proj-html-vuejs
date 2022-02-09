@@ -24,7 +24,16 @@
     </section>
 
     <section id="special-moments" class="container">
-
+      <div class="wrapper text-center mb-5">
+        <p class="small-text">
+          CORPORATE & WEDDINGS
+        </p>
+        <h3>Baking Special Moments</h3>
+      </div>
+      <div class="row">
+        <div class="img-container col me-5"></div>
+        <div class="img-container col ms-5"></div>
+      </div>
     </section>
 
     <section id="products" class="container">

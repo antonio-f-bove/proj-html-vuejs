@@ -23,10 +23,18 @@ export default {
 
 <style lang="scss">
 @import '~bootstrap/scss/bootstrap.scss';
+@import './style/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&display=swap');
 
 // utility classes
 
 .small-text {
-  font-size: .8rem;
+  font-size: $small-text;
+  color: $text-grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Serif 4', sans-serif;
+  font-weight: 600;
 }
 </style>

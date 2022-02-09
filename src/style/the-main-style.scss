@@ -7,17 +7,37 @@ section {
 main {
 
   #start-shopping {
-    margin-top: $section-gap;;
+    margin-top: $section-gap;
+
     .content-box {
-      .small-text {
-        color: #aaa;
-      }
       h3 {
         color: $primary;
       }
     }
 
-    .slider {
+    // .slider {
+
+    // }
+  }
+
+  #special-moments {
+    h3 {
+      color: $primary;
+    }
+
+    .row {
+      .img-container {
+        height: 600px;
+        
+        &:first-child {
+          background: url('/images/corporate-bg.jpg') no-repeat;
+          background-size: cover;
+        }
+        &:last-child {
+          background: url('/images/wedding-bg.jpg') no-repeat;
+          background-size: cover;
+        }
+      }
 
     }
   }
