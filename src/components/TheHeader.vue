@@ -16,7 +16,7 @@
     </header>
     <div class="jumbo">
       <div class="container">
-        <div class="cta col-4">
+        <div class="content-box col-4">
           <div class="small-text mb-3">
             FRESH & TASTY EVERY DAY
           </div>
@@ -36,7 +36,6 @@ import AppButton from './AppButton.vue'
 
 export default {
   components: { AppButton },
-  
 }
 </script>
 

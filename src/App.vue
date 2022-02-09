@@ -24,4 +24,9 @@ export default {
 <style lang="scss">
 @import '~bootstrap/scss/bootstrap.scss';
 
+// utility classes
+
+.small-text {
+  font-size: .8rem;
+}
 </style>

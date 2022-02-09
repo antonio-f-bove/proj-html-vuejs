@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+section {
+  margin-bottom: $section-gap;
+}
+
+main {
+
+  #start-shopping {
+    margin-top: $section-gap;;
+    .content-box {
+      .small-text {
+        color: #aaa;
+      }
+      h3 {
+        color: $primary;
+      }
+    }
+
+    .slider {
+
+    }
+  }
+
+}
