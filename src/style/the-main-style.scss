@@ -18,7 +18,7 @@ main {
   #special-moments {
     .row {
       .img-container {
-        height: 600px;
+        height: $big-box-height;
         
         &:first-child {
           background: url('/images/corporate-bg.jpg') no-repeat;
@@ -37,20 +37,64 @@ main {
     .content-box {
       padding: 80px 0;
     }
-  }
 
-  .slider {
-    .row {
-      height: 100%;
-
-      .card {
+    .slider {
+      .row {
         height: 100%;
-        border: none;
-
-        .card-text {
-          color: $text-grey;
+  
+        .card {
+          height: 100%;
+          border: none;
+  
+          .card-text {
+            color: $primary;
+          }
         }
       }
     }
   }
+
+  #process {
+    .box {
+      height: $big-box-height;
+      color: #fff;
+
+      .overlay {
+        padding: 70px 70px;
+        height: 100%;
+        background-color: #1117;
+        position: relative;
+
+        .title-container {
+          display: flex;
+          justify-content: space-between;
+
+          h2 {
+            color: #fff;
+            font-weight: 700;
+          }
+          .number {
+            font-weight: lighter;
+          }
+        }
+
+        .text-container {
+          position: absolute;
+          bottom: 70px;
+          right: 70px;
+
+          .small-text, p {
+            color: #fff;
+          }
+        }
+      }
+
+
+      &.first {
+        background: url('/images/bakery-process-1.jpg') no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+
 }

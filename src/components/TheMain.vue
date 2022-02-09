@@ -41,7 +41,7 @@
         <div class="content-box text-center col-3 me-3">
           <h3 class="mb-3">Find a freshly baked product perfect for you</h3>
           <p class="small-text mb-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe velit earum delectus laborum pariatur vel sit ex commodi blanditiis, qui libero corporis, numquam eum temporibus! Veritatis neque sunt tempore eaque.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At hic voluptatum minima commodi iusto, tempora voluptates ipsam. Odio, impedit? Laborum?
           </p>
           <app-button :theme="'dark'">Shop All Products</app-button>
         </div>
@@ -82,7 +82,18 @@
     </section>
 
     <section id="process" class="container">
-
+      <div class="box first">
+        <div class="overlay">
+          <div class="title-container">
+            <h2 class="col-5 display-6">Tell us what you have in mind</h2>
+            <div class="number display-2">01</div>
+          </div>
+          <div class="text-container col-4">
+            <div class="small-text mb-2">MANUAL INGREDIENTS SELECTION</div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="locations" class="container">
