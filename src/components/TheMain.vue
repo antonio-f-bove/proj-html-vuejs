@@ -31,8 +31,24 @@
         <h3>Baking Special Moments</h3>
       </div>
       <div class="row">
-        <div class="img-container col me-5"></div>
-        <div class="img-container col ms-5"></div>
+        <div class="col">
+          <div class="img-container corporate me-5">
+            <div class="layer text-center">
+              <div class="small-text mb-3">INTERNATIONAL BAKERY</div>
+              <h3 class="mb-3">Corporate Events</h3>
+              <app-button :theme="'dark'">Explore More</app-button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="img-container wedding ms-5">
+            <div class="layer text-center">
+              <div class="small-text mb-3">PRIVATE DINING HALL</div>
+              <h3 class="mb-3">Wedding & Parties</h3>
+              <app-button :theme="'dark'">Explore More</app-button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

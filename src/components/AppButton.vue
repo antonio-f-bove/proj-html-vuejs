@@ -20,14 +20,26 @@ export default {
   font-size: .8rem;
   padding: 1em 2em;
   border-radius: 5px;
+  cursor: pointer;
 
   &.light {
     background-color: #fff;
     color: $primary;
+
+    &:hover {
+      background-color: $primary;
+      color: #fff;
+    }
   }
+
   &.dark {
     background-color: $primary;
     color: #fff;
+
+    &:hover {
+      background-color: $secondary;
+      color: $primary;
+    }
   }
 }
 </style>

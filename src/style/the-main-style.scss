@@ -20,16 +20,42 @@ main {
       .img-container {
         height: $large-box-height;
         
-        &:first-child {
+        &.corporate {
           background: url('/images/corporate-bg.jpg') no-repeat;
           background-size: cover;
+
+          & .layer {
+            background: url('/images/corporate-hover-bg.jpg') 50% 50%;
+          }
+          &:hover .layer{
+            display: block;
+          }
         }
-        &:last-child {
+
+        &.wedding {
           background: url('/images/wedding-bg.jpg') no-repeat;
           background-size: cover;
+
+          & .layer {
+            background: url('/images/wedding-hover-bg.jpg') 50% 50%;
+          }
+          &:hover .layer{
+            display: block;
+          }
         }
       }
 
+      .layer {
+        width: 100%;
+        height: 100%;
+        padding: 200px 0;
+        background-size: cover;
+        display: none;
+       
+        & > .small-text, & > h3 {
+          color: #fff;
+        }
+      }
     }
   }
 
