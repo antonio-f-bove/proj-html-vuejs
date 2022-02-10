@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <the-header />
+    <the-header :navItems="headerNavList" />
     <the-main />
     <the-footer />
   </div>
@@ -18,6 +18,21 @@ export default {
     TheMain,
     TheFooter,
   },
+  data() {
+    return {
+      headerNavList: [
+        'HOME',
+        'SHOP',
+        'ABOUT',
+        'GALLERY',
+        'LOCATIONS',
+        'JOURNAL',
+        'CONTACT',
+        'MY ACCOUNT',
+        '<i class="bi bi-cart-fill"></i>',
+      ],
+    }
+  }
 };
 </script>
 

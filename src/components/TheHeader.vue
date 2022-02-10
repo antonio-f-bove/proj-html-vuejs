@@ -7,9 +7,7 @@
         </div>
         <nav class="col">
           <ul>
-            <li>HOME</li>
-            <li>HOME</li>
-            <li>HOME</li>
+            <li v-for="item in navItems" :key="item">{{ renderListItem(item) }}</li>
           </ul>
         </nav>
       </div>
@@ -36,6 +34,18 @@ import AppButton from './AppButton.vue'
 
 export default {
   components: { AppButton },
+  props: {
+    navItems: Array,
+  },
+  methods: {
+    renderListItem (str) {
+      if (str.includes('<i')) {
+        return '<<icona inserita dinamicamente>>'
+      } else {
+        return str
+      }
+    }
+  },
 }
 </script>
 
