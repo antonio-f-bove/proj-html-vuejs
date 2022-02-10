@@ -8,9 +8,8 @@
           <h3 class="mb-5">All our delectable pastries are baked fresh in our Kitchen every morning, and are made with all-natural, all organic ingredients</h3>
           <app-button :theme="'dark'">Start Shopping</app-button>
         </div>
-        <div class="slider col">
-          <!-- static version -->
-          <!-- TODO: prev&next buttons -->
+        <!-- <div class="slider col">
+         
           <div class="row">
             <div class="img-container col-6 ps-4">
               <img class="img-fluid" src="/images/choco-chip-cookies.jpg" alt="cookies">
@@ -19,7 +18,10 @@
               <img class="img-fluid" src="/images/strawberry-jam-cookies.jpg" alt="cookies">
             </div>
           </div>
-        </div>
+        </div> -->
+
+        <app-slider class="col" numberOfCards="2" :isCardsWithText="false" :items="products" />
+
       </div>
     </section>
 
@@ -227,10 +229,16 @@
 
 <script>
 import AppButton from './AppButton.vue'
+import AppSlider from './AppSlider.vue'
 
 export default {
-  components: { AppButton },
-  
+  components: { 
+    AppButton,
+    AppSlider 
+  },
+  props: {
+    products: Array,
+  }
 }
 </script>
 

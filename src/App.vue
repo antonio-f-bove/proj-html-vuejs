@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <the-header :navItems="headerNavList" />
-    <the-main />
+    <the-main :products="products" />
     <the-footer />
   </div>
 </template>
@@ -30,6 +30,107 @@ export default {
         'CONTACT',
         'MY ACCOUNT',
         '<i class="bi bi-cart-fill"></i>',
+      ],
+      products: [
+        {
+          "name": "Strawberry Jam Cookies",
+          "url": "/strawberry-jam-cookies",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        },
+        {
+          "name": "Chocolate Chip Cookies",
+          "url": "/choco-chip-cookies",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        },
+        {
+          "name": "Blackberry Stuffed Bread",
+          "url": "/blackberry-stuffed-bread",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        },
+        {
+          "name": "Cookies With Icecream",
+          "url": "/cookies-with-ice-cream",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        },
+        {
+          "name": "Cherry Cake",
+          "url": "/cherry-cake",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        },
+        {
+          "name": "Glazed Pancake with Lemon",
+          "url": "/glazed-pancake-with-lemon",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        },
+        {
+          "name": "Home Bread",
+          "url": "/home-bread",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        },
+        {
+          "name": "Perfect Macarons",
+          "url": "/perfect-macarons",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        },
+        {
+          "name": "Premium Bread",
+          "url": "/premium-bread",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        },
+        {
+          "name": "Small Cupcake",
+          "url": "/small-cupcake",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        },
+        {
+          "name": "Strawberry Donut",
+          "url": "/strawberry-donut",
+          "price-tag": "$19.00 - $39.00",
+          "types": [
+            "Cookies",
+            "Pastries"
+          ]
+        }
       ],
     }
   }

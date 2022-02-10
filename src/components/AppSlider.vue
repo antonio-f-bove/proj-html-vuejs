@@ -1,17 +1,7 @@
 <template>
   <div class="slider">
     <div class="row g-3" :class="`row-cols-${colsWidth}`">
-       <div v-for="(item, i) in items" :key="item" class="col">
-         <div v-if="i >= current && i < current + numberOfCards" 
-         class="card"
-         >
-            <img class="card-img-top" :src="`/images${item}.jpg`" alt="product">
-            <div class="card-body text-center">
-              <h6 class="card-title">Choco Chip Cookies</h6>
-              <div class="card-text">$19.00 - $39.00</div>
-            </div>
-          </div>
-       </div>
+       <slider-card v-for="n in numberOfCards" :key="n" class="col" :items="items" :withText="isCardWithText" :index="current" />
     </div>
   </div>
 </template>
@@ -25,7 +15,7 @@ export default {
   },
   props: {
     numberOfCards: Number,
-    cardsWithText: Boolean,
+    isCardsWithText: Boolean,
     items: Array,
   },
   data() {
