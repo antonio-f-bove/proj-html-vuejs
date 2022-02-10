@@ -82,15 +82,48 @@
     </section>
 
     <section id="process" class="container">
-      <div class="box first">
-        <div class="overlay">
-          <div class="title-container">
-            <h2 class="col-5 display-6">Tell us what you have in mind</h2>
-            <div class="number display-2">01</div>
+      <div class="row g-4">
+        <div class="large-box first col-12">
+          <div class="wrapper">
+            <div class="title-container">
+              <h2 class="col-5 display-6">Tell us what you have in mind</h2>
+              <div class="number display-2">01</div>
+            </div>
+            <div class="text-container col-4">
+              <div class="small-text mb-2">MANUAL INGREDIENTS SELECTION</div>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+            </div>
           </div>
-          <div class="text-container col-4">
-            <div class="small-text mb-2">MANUAL INGREDIENTS SELECTION</div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+        </div>
+        
+        <div class="large-box second col-6">
+          <!-- TODO: sistemare gutter nella fila centrale -->
+          <div class="wrapper">
+            <div class="title-container">
+              <h2 class="col-5 display-6">We Start Baking</h2>
+              <div class="number display-2">02</div>
+            </div>
+            <div class="text-container col-6">
+              <div class="small-text mb-2">SWEET AND DELICIOUS</div>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+            </div>
+          </div>
+        </div>
+        <div class="content-box col-6">
+          <div class="small-text mb-5">DON'T JUST TAKE OUR WORD FOR IT</div>
+          <h2 class="mb-4">"Finally found an alternative to the mass produced products. Something thatincorporates real organic ingredients, nutrient dense wellness while promoting sustainability and activity"</h2>
+          <div class="small-text">Rachel Cooper, Founder</div>
+        </div>
+        <div class="large-box third col-12">
+          <div class="wrapper">
+            <div class="title-container">
+              <h2 class="col-5 display-6">Delivered to your home</h2>
+              <div class="number display-2">03</div>
+            </div>
+            <div class="text-container col-4">
+              <div class="small-text mb-2">BAKED TO ORDER & GIFT WRAPPED</div>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+            </div>
           </div>
         </div>
       </div>
