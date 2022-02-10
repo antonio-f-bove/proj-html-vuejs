@@ -20,7 +20,7 @@
           </div>
         </div> -->
 
-        <app-slider class="col" numberOfCards="2" :isCardsWithText="false" :items="products" />
+        <app-slider class="col" :numberOfCards="2" :isCardWithText="false" :items="products" />
 
       </div>
     </section>

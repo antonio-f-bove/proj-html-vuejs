@@ -35,7 +35,7 @@ export default {
         {
           "name": "Strawberry Jam Cookies",
           "url": "/strawberry-jam-cookies",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
@@ -44,7 +44,7 @@ export default {
         {
           "name": "Chocolate Chip Cookies",
           "url": "/choco-chip-cookies",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
@@ -53,7 +53,7 @@ export default {
         {
           "name": "Blackberry Stuffed Bread",
           "url": "/blackberry-stuffed-bread",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
@@ -62,7 +62,7 @@ export default {
         {
           "name": "Cookies With Icecream",
           "url": "/cookies-with-ice-cream",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
@@ -71,7 +71,7 @@ export default {
         {
           "name": "Cherry Cake",
           "url": "/cherry-cake",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
@@ -80,7 +80,7 @@ export default {
         {
           "name": "Glazed Pancake with Lemon",
           "url": "/glazed-pancake-with-lemon",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
@@ -89,7 +89,7 @@ export default {
         {
           "name": "Home Bread",
           "url": "/home-bread",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
@@ -98,7 +98,7 @@ export default {
         {
           "name": "Perfect Macarons",
           "url": "/perfect-macarons",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
@@ -107,7 +107,7 @@ export default {
         {
           "name": "Premium Bread",
           "url": "/premium-bread",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
@@ -116,7 +116,7 @@ export default {
         {
           "name": "Small Cupcake",
           "url": "/small-cupcake",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
@@ -125,7 +125,7 @@ export default {
         {
           "name": "Strawberry Donut",
           "url": "/strawberry-donut",
-          "price-tag": "$19.00 - $39.00",
+          "price": "$19.00 - $39.00",
           "types": [
             "Cookies",
             "Pastries"
