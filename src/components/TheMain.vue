@@ -83,46 +83,53 @@
 
     <section id="process" class="container">
       <div class="row g-4">
-        <div class="large-box first col-12">
-          <div class="wrapper">
-            <div class="title-container">
-              <h2 class="col-5 display-6">Tell us what you have in mind</h2>
-              <div class="number display-2">01</div>
-            </div>
-            <div class="text-container col-4">
-              <div class="small-text mb-2">MANUAL INGREDIENTS SELECTION</div>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+        <div class="col-12">
+          <div class="large-box first">
+            <div class="wrapper">
+              <div class="title-container">
+                <h2 class="col-5 display-6">Tell us what you have in mind</h2>
+                <div class="number display-2">01</div>
+              </div>
+              <div class="text-container col-4">
+                <div class="small-text mb-2">MANUAL INGREDIENTS SELECTION</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+              </div>
             </div>
           </div>
         </div>
         
-        <div class="large-box second col-6">
-          <!-- TODO: sistemare gutter nella fila centrale -->
-          <div class="wrapper">
-            <div class="title-container">
-              <h2 class="col-5 display-6">We Start Baking</h2>
-              <div class="number display-2">02</div>
-            </div>
-            <div class="text-container col-6">
-              <div class="small-text mb-2">SWEET AND DELICIOUS</div>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+        <div class="col-6">
+          <div class="large-box second">
+            <div class="wrapper">
+              <div class="title-container">
+                <h2 class="col-5 display-6">We Start Baking</h2>
+                <div class="number display-2">02</div>
+              </div>
+              <div class="text-container col-6">
+                <div class="small-text mb-2">SWEET AND DELICIOUS</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="content-box col-6">
-          <div class="small-text mb-5">DON'T JUST TAKE OUR WORD FOR IT</div>
-          <h2 class="mb-4">"Finally found an alternative to the mass produced products. Something thatincorporates real organic ingredients, nutrient dense wellness while promoting sustainability and activity"</h2>
-          <div class="small-text">Rachel Cooper, Founder</div>
+        <div class="col-6">
+          <div class="content-box">
+            <div class="small-text mb-5">DON'T JUST TAKE OUR WORD FOR IT</div>
+            <h2 class="mb-4">"Finally found an alternative to the mass produced products. Something thatincorporates real organic ingredients, nutrient dense wellness while promoting sustainability and activity"</h2>
+            <div class="small-text">Rachel Cooper, Founder</div>
+          </div>
         </div>
-        <div class="large-box third col-12">
-          <div class="wrapper">
-            <div class="title-container">
-              <h2 class="col-5 display-6">Delivered to your home</h2>
-              <div class="number display-2">03</div>
-            </div>
-            <div class="text-container col-4">
-              <div class="small-text mb-2">BAKED TO ORDER & GIFT WRAPPED</div>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+        <div class="col-12">
+          <div class="large-box third">
+            <div class="wrapper">
+              <div class="title-container">
+                <h2 class="col-5 display-6">Delivered to your home</h2>
+                <div class="number display-2">03</div>
+              </div>
+              <div class="text-container col-4">
+                <div class="small-text mb-2">BAKED TO ORDER & GIFT WRAPPED</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro magnam laboriosam! Molestias cumque, quae blanditiis doloremque amet neque! Voluptatem accusantium quaerat voluptatum quis excepturi delectus a incidunt libero error?</p>
+              </div>
             </div>
           </div>
         </div>
@@ -130,7 +137,46 @@
     </section>
 
     <section id="locations" class="container">
-
+      <div class="content-box text-center">
+        <div class="small-text">LOCATIONS</div>
+        <h3>Visit our Bakeries</h3>
+      </div>
+      <div class="d-flex">
+        <div class="card">
+          <img src="/images/new-york-bk.jpg" alt="new-york" class="card-img-top mb-4">
+          <div class="card-body">
+            <h4 class="card-title text-center mb-4">New York</h4>
+            <div class="row row-cols-4 justify-content-around">
+              <div class="small-text text-center">
+                <div>CALL US</div>
+                <div>1.800.458.556</div>
+              </div>
+              <div class="small-text text-center">
+                <div>OPEN ALL WEEK</div>
+                <div>9:00 AM - 6:00 PM</div>
+              </div>
+              <app-button :theme="'light'" class="text-center">View Map</app-button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/london-bk.jpg" alt="london" class="card-img-top mb-4">
+          <div class="card-body">
+            <h4 class="card-title text-center mb-4">London</h4>
+            <div class="row row-cols-4 justify-content-around">
+              <div class="small-text text-center">
+                <div>CALL US</div>
+                <div>1.800.458.556</div>
+              </div>
+              <div class="small-text text-center">
+                <div>OPEN ALL WEEK</div>
+                <div>9:00 AM - 6:00 PM</div>
+              </div>
+              <app-button :theme="'light'" class="text-center">View Map</app-button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="social" class="container">

@@ -6,7 +6,6 @@ section {
 
 
 main {
-
   #start-shopping {
     margin-top: $section-gap;
 
@@ -15,10 +14,11 @@ main {
     // }
   }
 
+
   #special-moments {
     .row {
       .img-container {
-        height: $big-box-height;
+        height: $large-box-height;
         
         &:first-child {
           background: url('/images/corporate-bg.jpg') no-repeat;
@@ -32,6 +32,7 @@ main {
 
     }
   }
+
 
   #products {
     .content-box {
@@ -54,10 +55,11 @@ main {
     }
   }
 
+
   #process {
     // .box layout & style generico
     .large-box {
-      height: $big-box-height;
+      height: $large-box-height;
       color: #fff;
       position: relative;
 
@@ -132,7 +134,24 @@ main {
     .content-box {
       background-color: $secondary;
       padding: 120px 70px;
+      height: $large-box-height;
     }
   }
 
+  
+  #locations {
+    .card {
+      border: none;
+      border-radius: none;
+
+      &:first-child {
+        background-color: rgb(231, 239, 247);
+      }
+      &:last-child {
+        background-color: rgb(249, 241, 220);
+      }
+    }
+  }
+
+  
 }
