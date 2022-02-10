@@ -180,11 +180,31 @@
     </section>
 
     <section id="social" class="container">
-
+      <div class="row g-4">
+        <div class="col-3"><img class="img-fluid" src="/images/social-1.jpg" alt=""></div>
+        <div class="col-6">
+          <div class="content-box text-center">
+            <div class="small-text mb-3">MADE FOR SHARING</div>
+            <h2 class="mb-3">Let's stay in touch</h2>
+            <app-button :theme="'dark'">
+              <i class="bi bi-instagram"></i> Follow Us
+            </app-button>
+          </div>
+        </div>
+        <div class="col-3"><img class="img-fluid" src="/images/social-2.jpg" alt=""></div>
+        <div class="col-3"><img class="img-fluid" src="/images/social-3.jpg" alt=""></div>
+        <div class="col-3"><img class="img-fluid" src="/images/social-4.jpg" alt=""></div>
+        <div class="col-3"><img class="img-fluid" src="/images/social-5.jpg" alt=""></div>
+        <div class="col-3"><img class="img-fluid" src="/images/social-6.jpg" alt=""></div>
+      </div>
     </section>
 
     <section id="cta">
-      <div class="content-box"></div>
+      <div class="content-box col-5">
+        <div class="small-text mb-3">TRY OUR SEASONAL PRODUCTS</div>
+        <h2 class="mb-5">Order for pick-up or delivery to your home</h2>
+        <app-button :theme="'light'">Shop Now</app-button>
+      </div>
     </section>
   </main>
 </template>

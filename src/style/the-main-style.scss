@@ -154,4 +154,24 @@ main {
   }
 
   
+  #social {
+    .content-box {
+      height: 100%;
+      padding: 5rem 0;
+      background-color: $secondary;
+    }
+  }
+
+
+  #cta {
+    background: url('/images/call-to-action-bg.jpg') 50% 50%;
+    background-size: cover;
+    padding: 100px 200px;
+    
+    .content-box {
+      .small-text, h2 {
+        color: #fff;
+      }
+    }
+  }
 }

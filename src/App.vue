@@ -23,6 +23,7 @@ export default {
 
 <style lang="scss">
 @import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-icons/font/bootstrap-icons.css';
 @import './style/variables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&display=swap');
 
