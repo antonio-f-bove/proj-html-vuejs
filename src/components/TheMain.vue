@@ -3,24 +3,16 @@
 
     <section id="start-shopping" class="container">
       <div class="row">
-        <div class="content-box col-4">
-          <p class="small-text">OUR PRODUCTS</p>
-          <h3 class="mb-5">All our delectable pastries are baked fresh in our Kitchen every morning, and are made with all-natural, all organic ingredients</h3>
-          <app-button :theme="'dark'">Start Shopping</app-button>
-        </div>
-        <!-- <div class="slider col">
-         
-          <div class="row">
-            <div class="img-container col-6 ps-4">
-              <img class="img-fluid" src="/images/choco-chip-cookies.jpg" alt="cookies">
-            </div>
-            <div class="img-container col-6 pe-4">
-              <img class="img-fluid" src="/images/strawberry-jam-cookies.jpg" alt="cookies">
-            </div>
+        <div class="col-4">
+          <div class="content-box">
+            <p class="small-text">OUR PRODUCTS</p>
+            <h3 class="mb-5">All our delectable pastries are baked fresh in our Kitchen every morning, and are made with all-natural, all organic ingredients</h3>
+            <app-button :theme="'dark'">Start Shopping</app-button>
           </div>
-        </div> -->
-
-        <app-slider class="col" :numberOfCards="2" :isCardWithText="false" :items="products" />
+        </div>
+        <div class="col">
+          <app-slider :items="products" :outputSlides="2" :cardWithText="false" />
+        </div>
 
       </div>
     </section>
@@ -56,46 +48,19 @@
 
     <section id="products" class="container">
       <div class="row">
-        <div class="content-box text-center col-3 me-3">
-          <h3 class="mb-3">Find a freshly baked product perfect for you</h3>
-          <p class="small-text mb-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At hic voluptatum minima commodi iusto, tempora voluptates ipsam. Odio, impedit? Laborum?
-          </p>
-          <app-button :theme="'dark'">Shop All Products</app-button>
-        </div>
-        <div class="slider col">
-          <!-- static version -->
-          <div class="row">
-            <div class="card col">
-              <img class="card-img-top" src="/images/choco-chip-cookies.jpg" alt="product">
-              <div class="card-body text-center">
-                <h6 class="card-title">Choco Chip Cookies</h6>
-                <div class="card-text">$19.00 - $39.00</div>
-              </div>
-            </div>
-            <div class="card col">
-              <img class="card-img-top" src="/images/choco-chip-cookies.jpg" alt="product">
-              <div class="card-body text-center">
-                <h6 class="card-title">Choco Chip Cookies</h6>
-                <div class="card-text">$19.00 - $39.00</div>
-              </div>
-            </div>
-            <div class="card col">
-              <img class="card-img-top" src="/images/choco-chip-cookies.jpg" alt="product">
-              <div class="card-body text-center">
-                <h6 class="card-title">Choco Chip Cookies</h6>
-                <div class="card-text">$19.00 - $39.00</div>
-              </div>
-            </div>
-            <div class="card col">
-              <img class="card-img-top" src="/images/choco-chip-cookies.jpg" alt="product">
-              <div class="card-body text-center">
-                <h6 class="card-title">Choco Chip Cookies</h6>
-                <div class="card-text">$19.00 - $39.00</div>
-              </div>
-            </div>
+        <div class="col-3">
+          <div class="content-box text-center me-3">
+            <h3 class="mb-3">Find a freshly baked product perfect for you</h3>
+            <p class="small-text mb-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At hic voluptatum minima commodi iusto, tempora voluptates ipsam. Odio, impedit? Laborum?
+            </p>
+            <app-button :theme="'dark'">Shop All Products</app-button>
           </div>
         </div>
+        <div class="col">
+          <app-slider :items="products" :outputSlides="4" :cardWithText="true" />
+        </div>
+
       </div>
     </section>
 
@@ -228,13 +193,13 @@
 </template>
 
 <script>
-import AppButton from './AppButton.vue'
-import AppSlider from './AppSlider.vue'
+import AppButton from './AppButton.vue';
+import AppSlider from './AppSlider.vue';
 
 export default {
   components: { 
     AppButton,
-    AppSlider 
+    AppSlider, // one slider component customizable through props
   },
   props: {
     products: Array,

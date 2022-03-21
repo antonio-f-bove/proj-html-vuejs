@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="wrapper">
-      <div class="overlay">
+      <div class="overlay px-3">
         <h4>{{ item.name }}</h4>
         <div class="small-text">{{ item.types.join() }}</div>
         <p>{{ item.price }}</p>
@@ -18,7 +18,7 @@
 <script>
 export default {
   props: {
-    item: Array,
+    item: Object,
     withText: Boolean,
   },
   methods: {

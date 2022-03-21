@@ -78,15 +78,6 @@ export default {
           ]
         },
         {
-          "name": "Chocolate Chip Cookies",
-          "url": "/choco-chip-cookies",
-          "price": "$19.00 - $39.00",
-          "types": [
-            "Cookies",
-            "Pastries"
-          ]
-        },
-        {
           "name": "Glazed Pancake with Lemon",
           "url": "/glazed-pancake-with-lemon",
           "price": "$19.00 - $39.00",
