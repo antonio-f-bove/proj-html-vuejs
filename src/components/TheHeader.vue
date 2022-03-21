@@ -7,7 +7,8 @@
         </div>
         <nav class="col">
           <ul>
-            <li v-for="item in navItems" :key="item">{{ renderListItem(item) }}</li>
+            <li v-for="item in navItems" :key="item">{{ item }}</li>
+            <li><i class="bi bi-cart-fill"></i></li>
           </ul>
         </nav>
       </div>
@@ -36,15 +37,6 @@ export default {
   components: { AppButton },
   props: {
     navItems: Array,
-  },
-  methods: {
-    renderListItem (str) {
-      if (str.includes('<i')) {
-        return '<<icona inserita dinamicamente>>'
-      } else {
-        return str
-      }
-    }
   },
 }
 </script>

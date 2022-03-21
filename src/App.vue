@@ -2,7 +2,7 @@
   <div id="app">
     <the-header :navItems="headerNavList" />
     <the-main :products="products" />
-    <the-footer />
+    <the-footer :navItems="footerNavList" />
   </div>
 </template>
 
@@ -29,7 +29,15 @@ export default {
         'JOURNAL',
         'CONTACT',
         'MY ACCOUNT',
-        '<i class="bi bi-cart-fill"></i>',
+      ],
+      footerNavList: [
+        'Shop',
+        'About',
+        'Gallery',
+        'Locations',
+        'Journal',
+        'Contact',
+        'Orders',
       ],
       products: [
         {

@@ -1,0 +1,70 @@
+@import '../style/variables.scss';
+
+footer {
+  .footer-left {
+    height: 200px;
+
+    .logo-container {
+      width: 8em;
+    }
+
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+
+        li {
+          margin-right: 3em;
+          font-size: $small-text;
+          color: $primary;
+
+          &.cart {
+            display: flex;
+
+            span {
+              padding: 0 .5em;
+              background-color: #5b2ca222;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    .subscribe {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+
+      input {
+        width: 50%;
+        border: solid #aaa3 1px;
+        border-radius: 4px;
+
+        &::placeholder {
+          font-size: $small-text;
+          padding-left: .5em;
+        }
+      }
+    }
+
+    .socials {
+      ul {
+        list-style: none;
+        display: flex;
+
+        li {
+          color: $primary;
+          margin-left: 2em;
+        }
+      }
+    }
+  }
+}

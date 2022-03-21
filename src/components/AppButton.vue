@@ -17,8 +17,8 @@ export default {
 
 .button {
   display: inline-block;
-  font-size: .8rem;
-  padding: 1em 2em;
+  font-size: $small-text;
+  padding: .6em 2em;
   border-radius: 5px;
   cursor: pointer;
 
